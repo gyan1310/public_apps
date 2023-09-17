@@ -294,7 +294,7 @@ def Monthly_avg():
 
     st.pyplot(fig2)
     
-selected_strategy = st.sidebar.selectbox("✅Choose a strategy", ["Strategy_(S1)","s1_with_constant_trade_size", "Monthly_avg","Monthly_close"])
+selected_strategy = st.sidebar.selectbox("✅Choose a strategy", ["Strategy_(S1)"])
 
 # Call the selected strategy based on user input
 if selected_strategy == "Strategy_(S1)":
